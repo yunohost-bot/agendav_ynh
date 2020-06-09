@@ -126,7 +126,7 @@ ynh_add_nginx_config
 ynh_script_progression --message="Upgrading dependencies..." --weight=5
 
 # Install dependencies
-ynh_install_app_dependencies php-cli
+ynh_install_app_dependencies php7.0-cli
 
 #=================================================
 # CREATE DEDICATED USER
